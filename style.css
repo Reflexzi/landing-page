@@ -50,7 +50,7 @@ ul{
     font-weight: bold;
 }
 .text{
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
     color: #E5e7eb;
     font-size: 18px;
 }
@@ -64,4 +64,31 @@ button{
 }
 .sign-up{
     color: #f9f9f9;
+}
+
+.mid{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-header{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.mid-images{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    border:3px solid #3882f6;
+    border-radius: 8px;
+}
+.info{
+    display:flex;
+    justify-content: center;
 }
